@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-align: left; /* Teks rata kiri nampak lebih kemas dan serius */
+    background-color: #e9ecef; /* Warna kelabu lembut, lebih tenang */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 30px;
+    border-radius: 8px; /* Sudut tidak terlalu bulat */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08); /* Bayangan halus */
+    max-width: 90%;
+    width: 420px;
+    border-top: 5px solid #343a40; /* Garis penegasan di bahagian atas */
+}
+
+h1 {
+    color: #212529; /* Warna teks gelap, lebih tegas */
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+p {
+    color: #343a40;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #343a40; /* Warna gelap / kelabu hitam */
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #212529; /* Lebih gelap bila ditekan */
+}
+
+.tersembunyi {
+    display: none;
+}
+
+/* Untuk skrin kecil */
+@media (max-width: 400px) {
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
